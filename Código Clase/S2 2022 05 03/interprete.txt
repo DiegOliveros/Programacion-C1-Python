@@ -1,0 +1,6 @@
+print("hola mundo desde el archivo")
+suma =5+6
+print("la variable suma tiene por valor: ", suma, "\n")
+suma=y+p
+print("hola mundo desde el archivo")
+print("escritura y sintaxis no es lo mismo que programa")

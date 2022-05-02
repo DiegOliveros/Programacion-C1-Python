@@ -1,0 +1,11 @@
+título= "una variable con tilde"
+nombre = input ("Digite su nombre: ")
+print(f'El nombre es', nombre)
+print("Tu nombre es: ", nombre,título)
+print(f'EL nombre1 con formato es: {nombre}')
+print(f"EL nombre2 con formato es: {nombre}")
+print("EL nombre3 con formato es: {nombre}")
+edad = 20
+print("Tu nombre es {0} y tienes {1} años.".format(nombre, edad))
+print("EL nombre4 con formato es {1} ".format(nombre)) 
+print("Tu nombre es %s" %nombre)

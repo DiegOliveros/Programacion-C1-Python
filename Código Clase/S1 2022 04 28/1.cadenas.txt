@@ -1,0 +1,27 @@
+# ******** SEMANA 1 ***********
+# Esto es un comentario 
+# Diego Iván Oliveros Acosta @scalapp.co   
+# 
+#  sintaxis para cadenas y comentarios.
+
+'hola mundo'
+"'hola mundo esto es una línea con comilla simple'"
+'"hola mundo esto es una línea con comilla doble"'
+"""
+Muchas lineas 
+sin necesidad 
+de poner otras 
+comas
+"""
+nombre_variable='''
+*****
+* // *
+*****
+'''
+a=1
+print("se puede imprimir sin asignar variables")
+print(a)
+print(a)
+print(a)
+print(5555)
+print(a)

@@ -1,0 +1,22 @@
+# ******** SEMANA 1 ***********
+# Esto es un comentario 
+# Diego Iván Oliveros Acosta @scalapp.co   
+# 
+#  sintaxis y prioridad para operadores
+
+#manejo de formulas
+a=b=c=d=1
+print(a+b+c+d)
+a,b,c,d=1,2,3,2
+print(a+b+c+d)
+resultado= a + (c - c * (d - (a + b) * (c + b / d * a) % a + b * c) - (b ** c)) ** b
+print(resultado)
+print(round(resultado))
+
+sumar=a+b
+restar=a-b
+dividir=a/b
+dividirentera=a//b
+multiplicar=a*b 
+potencia=b**a
+modulo=a%b

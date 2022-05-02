@@ -1,0 +1,36 @@
+# ******** SEMANA 1 ***********
+# Esto es un comentario 
+# Diego Iván Oliveros Acosta @scalapp.co   
+# 
+# listado de tipos de datos
+
+entero=1
+flotante=20.5
+complejo=3+5j
+boleano=True
+boleano2=False
+cadena1="micadena"
+cadena2='mi cadena0'
+tupla=("manzana","pera")
+lista=["manzana","pera"]
+diccionario={"nombre:":"Juan","edad":16}
+rango=range(6)
+binario=b"hola"
+print(entero,"\n",flotante)
+tipo=type(entero)
+
+#impresión de tipos de datos
+print(tipo)
+print(type(flotante))
+print(type(complejo))
+print(type(boleano))
+print(type(boleano2))
+print(type(cadena1))
+print(type(cadena2))
+print(type(tupla))
+print(type(lista))
+print(type(diccionario))
+print(type(binario))
+print(binario)
+x=bytes(3)
+print(x)

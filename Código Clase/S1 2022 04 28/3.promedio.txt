@@ -1,0 +1,23 @@
+# *************************** SEMANA 1 ******************************
+# Diego Iván Oliveros Acosta @scalapp.co   
+
+# Ejercicio de referente para el problema del promedio 
+# 2022/04/28
+# *******************************************************************
+
+primer_valor=input("ingrese el valor 1: \n")
+print("El valor de la variable es: ", primer_valor)
+
+segundo_valor=int(input("ingrese el valor 2: \n"))
+print("El valor con iva es: ", segundo_valor*1.19)
+print("El valor con iva es: ", segundo_valor*0.19+segundo_valor)
+
+tercer_valor=float(input("ingrese el valor flotante 3: \n"))
+print("El valor con iva es: ", tercer_valor*1.19)
+print("El valor con iva es: ", tercer_valor*0.19+tercer_valor)
+
+
+# A=4
+# print(A)
+# A=A+1
+# print(A)
