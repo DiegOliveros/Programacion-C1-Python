@@ -1,3 +1,9 @@
+# ******** SEMANA 1 ***********
+# Esto es un comentario 
+# Diego Iván Oliveros Acosta @scalapp.co   
+# 
+#  sintaxis para cadenas y comentarios.
+
 título= "una variable con tilde"
 nombre = input ("Digite su nombre: ")
 print(f'El nombre es', nombre)
