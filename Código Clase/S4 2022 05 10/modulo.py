@@ -1,18 +1,35 @@
 # -*- coding: utf-8 -*-
 """
 # ******** SEMANA 3 ***********
-Created on Tue May 10 10:48:21 2022
+Created on Sat May 14 09:19:19 2022
 #  
 # Diego Iván Oliveros Acosta @scalapp.co   @author: ITOS
 # 
-# [name]   [modulo.py]
+# [name]   []
 # =============================================================================
-#  El módulo es un archivo que contiene funciones de Python, 
-#  variables globales, etc.
-#  No es más que un archivo .py que tiene
-#  código / instrucción ejecutable de Python.
+# 
 # =============================================================================
 """
 
-def welcome_message(user_name):
-    return "Welcome " + user_name
+import matplotlib.pyplot as plt
+import numpy as np
+
+puntosx = np.array([0,6])
+puntosy = np.array([0,250])
+plt.plot(puntosx,puntosy)
+plt.show()
+print(plt.__version__)
+
+
+
+
+
+
+
+
+
+
+
+
+
+

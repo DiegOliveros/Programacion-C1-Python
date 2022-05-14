@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 # ******** SEMANA 3 ***********
-Created on Fri May 13 15:13:18 2022
+Created on Sat May 14 10:26:43 2022
 #  
 # Diego Iván Oliveros Acosta @scalapp.co   @author: ITOS
 # 
@@ -10,8 +10,6 @@ Created on Fri May 13 15:13:18 2022
 # 
 # =============================================================================
 """
-
-import pandas as pd
-
-df = pd.read_csv("C:\\Users\\ITOS\\Documents\\GitHub\\Programaci-n-C1-Grupo-9-\\Bases de datos\\twitter.csv")
-print(df.to_string())
+import numpy as np
+a=np.arange(-3, 3, 0.5, dtype=int)
+print(a)

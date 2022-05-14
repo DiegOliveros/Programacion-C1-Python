@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 # ******** SEMANA 3 ***********
-Created on Fri May 13 15:13:18 2022
+Created on Sat May 14 09:19:19 2022
 #  
 # Diego Iván Oliveros Acosta @scalapp.co   @author: ITOS
 # 
@@ -11,7 +11,18 @@ Created on Fri May 13 15:13:18 2022
 # =============================================================================
 """
 
-import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
 
-df = pd.read_csv("C:\\Users\\ITOS\\Documents\\GitHub\\Programaci-n-C1-Grupo-9-\\Bases de datos\\twitter.csv")
-print(df.to_string())
+puntosx = np.array([0,6])
+puntosy = np.array([0,250])
+plt.plot(puntosx,puntosy)
+plt.show()
+print(plt.__version__)
+
+
+
+
+
+
+
