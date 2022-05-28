@@ -13,7 +13,8 @@ Created on Sat May 28 08:20:58 2022
 
 import datetime as dt
 import pytz
-import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np 
 #algunas aclaraciones sobre el modulo datetime:
 fecha = dt.datetime.now()
 
@@ -42,6 +43,8 @@ print(fecha.year)
 
 i=10
 diccionario={}
+datos_en_x=[]
+datos_en_y=[]
 while i !=0:
     i=int(input("""
           Menu
@@ -52,7 +55,9 @@ while i !=0:
     if i==1:
          fecha = dt.datetime.now(timezone)
          altura=input("ingrese la altura: ")
+         datos_en_x.append(float(altura))
          latitud=input("ingrese la latitud: ")
+         datos_en_y.append(float(latitud))
          longitud=input("ingrese la longitud: ")
          diccionario[fecha]=[altura,latitud,longitud]
 
@@ -61,6 +66,7 @@ print("la sesión ha terminado")
 for x in diccionario.keys():
     print(x)    
     print(diccionario[x])
+    
     file = open("registrotopográfico.csv","a")  #agregar y si no existe, crea y agrega 
     file.write(str(x)+","+str(diccionario[x][0])+","+str(diccionario[x][1])+","+str(diccionario[x][2]))
     file.close()
@@ -71,6 +77,17 @@ file = open("registrotopográfico.csv","r")   #leer
 print(file.read())  #texto compleo 
 file.close()  
 
+print(datos_en_x)
+X,Y=np.meshgrid(datos_en_x,datos_en_y)
+Z= 1/(1+np.exp(-X-Y))   # acá se genera la matriz para de valores para la altura
+# print(Z, type(Z))
+# print(X, type(X))
+# print(Y, type(Y))
+fig=plt.Figure(figsize=(8,6))
+ejes3d=plt.axes(projection="3d")
+ejes3d.plot_surface(X,Y,Z,cmap="plasma")
 
+
+plt.show()
 
 
