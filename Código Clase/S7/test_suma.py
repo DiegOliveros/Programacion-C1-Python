@@ -22,7 +22,7 @@ Created on Thu Jun  2 18:46:55 2022
 
 #Estructura de una prueba 
 import pytest
-from suma import suma
+from suma import f_suma as suma
 
 def test_suma():
     assert suma(2,5) ==7
@@ -47,7 +47,7 @@ def test_suma2():
     [   (2,5,7),   #
         (5,2,7),
         (suma(3,5),3,11),
-        (3,suma(3,5),11)
+        (3,suma(3,5),11)  #aplicamos la propiedad distributiva 
     ] 
 )
 def test_multiple_suma(input_a,input_b,esperado):

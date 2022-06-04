@@ -1,18 +1,19 @@
 # -*- coding: utf-8 -*-
 """
-# ******** SEMANA 3 ***********
+# ******** SEMANA 7 ***********
 Created on Thu Jun  2 19:18:45 2022
 #  
 # Diego Iván Oliveros Acosta @scalapp.co   @author: ITOS
 # 
-# [name]   []
+# [suma.py]   
 # =============================================================================
-# 
+# [Tomar dos argumentos x , y para luego sumarlos]
 # =============================================================================
 """
 
-def suma(x,y):
+def f_suma(x,y):
      """ 
      Tomar dos argumentos x , y para luego sumarlos
      """
-     return x+y
+     c=x+y
+     return c   #sería lo mismo que solo retornar x+y
