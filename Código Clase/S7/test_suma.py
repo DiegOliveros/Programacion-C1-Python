@@ -42,8 +42,7 @@ def test_suma2():
 
 # print(lista_pruebas)
 
-@pytest.mark.parametrize(
-    "input_a,input_b,esperado",
+@pytest.mark.parametrize("input_a,input_b,esperado",
     [   (2,5,7),   #
         (5,2,7),
         (suma(3,5),3,11),
